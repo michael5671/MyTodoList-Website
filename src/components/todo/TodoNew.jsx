@@ -9,7 +9,8 @@ const TodoNew = (props) => {
 
     // addNewTodo("giaphu") // fire
     const handleClick = () => {
-        console.log("check valueInut: ", valueInput)
+
+        addNewTodo(valueInput)
     }
 
     const handleOnChange = (name) => {
